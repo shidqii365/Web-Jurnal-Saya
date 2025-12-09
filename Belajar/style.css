@@ -1,0 +1,86 @@
+.navbar-brand h2 {
+    margin-left: 10px;
+    font-size: 20pt;
+    font-weight: 1000;
+}
+
+.navbar-brand {
+    margin-right: 50px;
+}
+
+#title-line{
+    display: block;
+    /* width: 100px; */
+    background-color: black;
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+.brand-img {
+    width: 100px;
+}
+
+/* .nav-link{
+    color: white;
+} */
+/* 
+.navbar-button{
+    padding-top: 30px;
+    padding-bottom: 30px;
+} */
+
+.navbar-button:hover{
+    background-color: yellow;
+    color: black !important;
+}
+
+.navbar-nav {
+    gap: 20px;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    padding: 5px;
+    font-size: 14pt;
+}
+
+.navbar-collapse{
+    margin-bottom: 10px;
+}
+
+.side-nav{
+    border-radius: 20px;
+    border: 2px solid blue;
+    /* background-color: rgb(212, 212, 212); */
+    padding: 20px;
+    height: 100%;
+    box-shadow: 5px 10px rgb(128, 128, 128);
+}
+
+.button-side-nav{
+    color: black;
+    padding-bottom: 0;
+    padding-top: 0;
+    margin: auto;
+    font-size: 10pt;
+    /* background-color:red; */
+}
+
+.button-side-nav:hover{
+    /* background-color: orange; */
+    color: red;
+}
+
+.no-issn p{
+    font-family: 'DM Serif Text', serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 14pt;
+    /* background-color: red; */
+    margin: 0;
+}
+
+#desc-jsay{
+    font-size: 10pt;
+}
