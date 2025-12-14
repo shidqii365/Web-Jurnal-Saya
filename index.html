@@ -30,7 +30,7 @@
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary sticky-top">
         <div class="container">
-            <a class="navbar-brand d-flex align-items-center" href="/home.html">
+            <a class="navbar-brand d-flex align-items-center" href="/index.html">
                 <img src="/img/New_JSAY.png" class="brand-img" alt="">
                 <h2>Jurnal Saya</h2>
             </a>
@@ -41,7 +41,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active navbar-button" aria-current="page" href="/home.html">Home</a>
+                        <a class="nav-link active navbar-button" aria-current="page" href="/index.html">Home</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -62,7 +62,7 @@
                         <a class="nav-link navbar-button" href="#">Archive</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar-button" href="">Login</a>
+                        <a class="nav-link navbar-button" href="/login.html">Login</a>
                     </li>
                 </ul>
                 <div class="d-flex no-issn flex-column flex-fill align-items-end">
@@ -72,8 +72,8 @@
             </div>
         </div>
     </nav>
-    
-    
+
+
     <div class="container d-flex mt-5 mb-5">
         <div class="col-2">
             <div class="container d-flex flex-column" style="gap: 20px;">
@@ -83,32 +83,63 @@
                 <img src="/img/garudajurnal.png" style="width: 100%;" alt="">
             </div>
         </div>
-        <div class="col-4 offset-2">
-            <div class="container">
-                <div class="row form-login mt-0 ms-auto">
+        <div class="col-7">
+            <div class="row mb-2">
+                <div class="container d-flex">
                     <div class="container">
-                        <div class="container">
-                            <h5>Login</h5>
-                            <span id="title-line"></span>
+                        <h1 style="font-family: 'DM Serif Text', serif; font-weight: 400; font-style: normal;">Jurnal Saya (JSAY)</h1>
+                        <span id="title-line"></span>
+                        <p id="desc-jsay">Jurnal Saya (JSAY) adalah platform publikasi ilmiah yang berfokus pada
+                            penelitian,
+                            pengembangan, serta penerapan teknologi modern di berbagai sektor. Jurnal ini menjadi wadah
+                            bagi para peneliti, akademisi, dan praktisi untuk mempublikasikan karya ilmiah berkualitas
+                            yang berkaitan dengan transformasi digital, sistem cerdas, komputasi, Internet of Things
+                            (IoT), keamanan siber, kecerdasan buatan, serta berbagai topik teknologi lainnya.</p>
+                        <p id="desc-jsay">JSAY menerapkan proses double-blind peer review untuk memastikan setiap
+                            artikel memenuhi
+                            standar akademik yang ketat dan dapat memberikan kontribusi signifikan terhadap perkembangan
+                            ilmu pengetahuan dan teknologi. Jurnal ini diterbitkan dua kali dalam setahun, yaitu pada
+                            bulan Maret dan bulan September, sehingga memastikan kontinuitas penyebaran riset terbaru
+                            kepada komunitas ilmiah.</p>
+                        <p id="desc-jsay">JSAY telah terindeks pada beberapa basis data ilmiah seperti <span
+                                style="font-weight: 500;">Google Scholar, Garuda, dan Crossref</span>, serta berupaya
+                            memperluas indeksasi menuju platform nasional dan internasional lainnya. Dengan menerapkan
+                            prinsip akses terbuka (open access), jurnal ini menyediakan kemudahan akses bagi pembaca
+                            untuk memperoleh informasi terkini tanpa hambatan.</p>
+                        <p id="desc-jsay">Dengan komitmen terhadap integritas ilmiah dan akses terbuka (open access),
+                            JSAY berupaya
+                            menjadi referensi terpercaya bagi peneliti, mahasiswa, institusi pendidikan, maupun industri
+                            yang membutuhkan wawasan dan inovasi di bidang teknologi terkini.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="container">
+                    <div class="container">
+                        <h1 style="font-family: 'DM Serif Text', serif;
+  font-weight: 400;
+  font-style: normal;">Last Issue</h1>
+                        <span id="title-line"></span>
+                        <h5>Volume 1, No. 1: September 2025</h5>
+                        <div class="table-last-issue">
+                            <a href="#" id="article-title">Penerapan Algoritma CNN untuk Deteksi Objek Otomatis</a>
+                            <div class="article-author">
+                                <p>Author Dummy1</p>
+                            </div>
+                            <a href="#" id="article-title">Penerapan Algoritma CNN untuk Deteksi Objek Otomatis</a>
+                            <div class="article-author">
+                                <p>Author Dummy1</p>
+                            </div>
+                            <a href="#" id="article-title">Penerapan Algoritma CNN untuk Deteksi Objek Otomatis</a>
+                            <div class="article-author">
+                                <p>Author Dummy1</p>
+                            </div>
                         </div>
-                        <form>
-                            <div class="container mb-2">
-                                <label for="username" class="form-label">Username</label>
-                                <input type="text" placeholder="Input Username" class="form-control">
-                            </div>
-                            <div class="container mb-3">
-                                <label for="password" class="form-label">Password</label>
-                                <input type="password" placeholder="Input Password" class="form-control">
-                            </div>
-                            <div class="container">
-                                <button type="submit" class="btn btn-primary btn-submit-login">Submit</button>
-                            </div>
-                        </form>
+
                     </div>
                 </div>
             </div>
         </div>
-        
         <div class="col-2 ms-auto">
             <div class="row side-nav">
                 <div class="container">
@@ -140,6 +171,27 @@
                 </ul>
             </div>
 
+            <div class="row form-login">
+                <div class="container">
+                    <div class="container">
+                        <h5>Login</h5>
+                        <span id="title-line"></span>
+                    </div>
+                    <form>
+                        <div class="container mb-2">
+                            <label for="username" class="form-label">Username</label>
+                            <input type="text" placeholder="Input Username" class="form-control">
+                        </div>
+                        <div class="container mb-3">
+                            <label for="password" class="form-label">Password</label>
+                            <input type="password" placeholder="Input Password" class="form-control">
+                        </div>
+                        <div class="container">
+                            <button type="submit" class="btn btn-primary btn-submit-login">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
         </div>
     </div>
 
