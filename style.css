@@ -20,20 +20,6 @@
     width: 100px;
 }
 
-/* .nav-link{
-    color: white;
-} */
-/* 
-.navbar-button{
-    padding-top: 30px;
-    padding-bottom: 30px;
-} */
-
-.navbar-button:hover{
-    background-color: yellow;
-    color: black !important;
-}
-
 .navbar-nav {
     gap: 20px;
     font-family: "Oswald", sans-serif;
@@ -50,11 +36,10 @@
 
 .side-nav{
     border-radius: 20px;
-    border: 2px solid blue;
+    border: 2px solid rgb(13, 109, 252);
     /* background-color: rgb(212, 212, 212); */
     padding: 20px;
-    height: 100%;
-    box-shadow: 5px 10px rgb(128, 128, 128);
+    /* box-shadow: 5px 10px rgb(128, 128, 128);  */
 }
 
 .button-side-nav{
@@ -63,12 +48,11 @@
     padding-top: 0;
     margin: auto;
     font-size: 10pt;
-    /* background-color:red; */
 }
 
 .button-side-nav:hover{
-    /* background-color: orange; */
     color: red;
+    font-weight: 100;
 }
 
 .no-issn p{
@@ -76,11 +60,34 @@
     font-weight: 400;
     font-style: normal;
     color: white;
-    font-size: 14pt;
+    font-size: 12pt;
     /* background-color: red; */
     margin: 0;
 }
 
 #desc-jsay{
     font-size: 10pt;
+}
+
+.form-login{
+    font-size: 10pt !important;
+    /* background-color: red; */
+    border-radius: 20px;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border: 2px solid rgb(13, 109, 252);
+    /* box-shadow: 5px 10px rgb(128, 128, 128); */
+}
+
+.form-control{
+    font-size: 10pt;
+}
+
+.btn-submit-login{
+    font-size: 10pt;
+}
+
+.container-footer{
+    color: white;
 }
